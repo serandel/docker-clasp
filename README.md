@@ -18,7 +18,7 @@ shared between all the container instances.
 For easier usage, add the following to your .bashrc or .zshrc:
 
 ```
-alias clasp="docker run --rm -it -v $(pwd):/app -v clasp:/home/node serandel/clasp --no-localhost"
+alias clasp="docker run --rm -it -v $(pwd):/app -v clasp:/home/node serandel/clasp"
 ```
 
 And now just:
