@@ -1,6 +1,6 @@
 # docker-clasp
 
-Run clasp in a Docker container, for developing Google Apps Script in your local machine.
+Run [clasp](https://github.com/google/clasp) in a Docker container, for developing Google Apps Script in your local machine.
 
 ## Usage
 
