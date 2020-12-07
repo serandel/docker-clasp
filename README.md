@@ -19,8 +19,10 @@ shared between all the container instances.
 For easier usage, add the following to your .bashrc or .zshrc:
 
 ```
-alias clasp="docker run --rm -it -v $(pwd):/app -v clasp:/home/node serandel/clasp --no-localhost"
+alias clasp='docker run --rm -it -v $(pwd):/app -v clasp:/home/node serandel/clasp --no-localhost'
 ```
+
+(Beware, if you use double quotes in the alias the `pwd` command will be resolved during login, not when you run the command...)
 
 And now just:
 
