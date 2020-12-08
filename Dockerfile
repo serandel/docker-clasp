@@ -4,7 +4,6 @@ RUN mkdir /app && chown -R node.node /app
 
 RUN npm install -g @google/clasp
 RUN npm install -g @types/google-apps-script
-RUN npm install -g @types/gapi.client.gmail
 
 USER node
 
